@@ -1,32 +1,33 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <style>
-        table, td {
-            border: 1px solid black;
-        }
-    </style>
-</head>
 <body>
 
-<p>Click on each td element to alert its position in the table row.</p>
-
-<table>
-    <tr>
-        <td onclick="myFunction(this)">Click to show cellIndex</td>
-        <td onclick="myFunction(this)">Click to show cellIndex</td>
-        <td onclick="myFunction(this)">Click to show cellIndex</td>
-        <td onclick="myFunction(this)">Click to show cellIndex</td>
-    </tr>
-</table>
-
-<script>
-    function myFunction(x) {
-        <?php $koordinate = x.cellIndex ?>
-        alert("Cell index is: " + $koordinate);
-
-    }
-</script>
-
+<?php
+public function Game(){
+    <img src="player.PNG" style="width: 50px; height: 50px;">
+            <?php else: ?>
+            <a href="index.php?x=<?php echo $u ?>&y=<?php echo $i ?>">
+            <?php if ($u == $x + 1 && $i == $y + 1): ?>
+            <img src="Grüne.png" style="width: 50px; height: 50px;">
+            <?php elseif ($u == $x - 1 && $i == $y + 1): ?>
+            <img src="Grüne.png" style="width: 50px; height: 50px;">
+            <?php elseif ($u == $x - 1 && $i == $y - 1): ?>
+            <img src="Grüne.png" style="width: 50px; height: 50px;">
+            <?php elseif ($u == $x + 1 && $i == $y - 1): ?>
+            <img src="Grüne.png" style="width: 50px; height: 50px;">
+            <?php elseif ($u == $x - 1 && $i == $y): ?>
+            <img src="Grüne.png" style="width: 50px; height: 50px;">
+            <?php elseif ($u == $x + 1 && $i == $y): ?>
+            <img src="Grüne.png" style="width: 50px; height: 50px;">
+            <?php elseif ($u == $x && $i == $y - 1): ?>
+            <img src="Grüne.png" style="width: 50px; height: 50px;">
+            <?php elseif ($u == $x && $i == $y + 1): ?>
+            <img src="Grüne.png" style="width: 50px; height: 50px;">
+            <?php else: ?>
+            </a>
+            <img src="gray.png" style="width: 50px; height: 50px;">
+        <?php endif ?>
+        <?php endif ?>
+}
+?>
 </body>
 </html>
