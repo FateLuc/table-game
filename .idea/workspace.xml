@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="882d4a1f-5e92-47bc-9540-a67eff8b72d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lost.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -53,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574866910913</updated>
       <workItem from="1574866911979" duration="463000" />
-      <workItem from="1575443263736" duration="4633000" />
+      <workItem from="1575443263736" duration="6393000" />
     </task>
     <servers />
   </component>
@@ -82,5 +81,9 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="661" y="403" key="com.intellij.ide.util.TipDialog/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1575443265547" />
+    <state x="-1304" y="270" key="run.anything.popup" timestamp="1575449808583">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1304" y="270" key="run.anything.popup/0.0.1920.1160/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1575449808583" />
   </component>
 </project>
